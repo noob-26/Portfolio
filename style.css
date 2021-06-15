@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +10,7 @@
 
 body{
     background-color: #000;
+    font-family: 'Mate SC', sans-serif;
 }
 
 .header{
@@ -22,9 +26,7 @@ body{
 }
 
 .name{
-    background: -webkit-linear-gradient(180deg,#dbb4f3,#efb7d7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: #f4d2fe;
     font-size: 3rem;
     margin: 20px 0px;
 }
@@ -37,7 +39,7 @@ body{
 
 .description{
     font-size: 1.5rem;
-    color: #09f755;
+    color: #3da153;
     margin: 10px 0px;
 }
 
@@ -62,7 +64,7 @@ body{
 
 .contact_btn{
     color: #000;    
-    background-color: #09f755;
+    background-color: #3da153;
     border: none;
     border-radius: 10px;
     padding: 10px 28px;
@@ -160,6 +162,7 @@ main{
     flex-grow: 1;
     min-height: 200px;
     margin-right: 10px;
+    margin-bottom: 10px;
     padding: 20px;
     width: 90%;
     margin-right: 20px;
@@ -357,7 +360,7 @@ footer{
 }
 
 .about > span{
-    color: #09f755;
+    color: #f4d2fe;
 }
 
 .about{
